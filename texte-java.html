@@ -1,0 +1,46 @@
+<!Doctype html>
+
+
+<html>
+<head>
+<title>ola mundo</title>
+<style>
+ body {
+  
+  }
+h1{
+font-family:'Playfair Display', serif;
+text-align: center;
+color: green;
+}
+h3{
+text-align: center;
+color:red;
+}
+</style>
+
+<meta charset="utf-8">
+
+     <script>
+     function acendeLampada()
+	 {
+	   document.getElementById("luz").src = "_imagens/lampada-acesa.jpg";
+	 }
+	 function apagaLampada()
+	 {
+	   document.getElementById("luz").src = "_imagens/lampada-apagada.jpg";
+	 }
+	 function quebraLampada()
+	 {
+	   document.getElementById("luz").src = "_imagens/lampada-quebrada.jpg";
+	 }
+	 
+	 </script>
+</head>	
+<body> <h1>Acende, Apaga, Quebra a lâmpada</h1>
+       <h3>Emilly Victoria Araujo Viana</h3>
+	   <h1>Thomas Anderson araujo viana<h1>
+     <img src="_imagens/lampada-apagada.jpg" id="luz" onmouseover="acendeLampada()" onmouseout="apagaLampada()" onclick="quebraLampada()"/>
+	
+	</body>
+	 </html>
